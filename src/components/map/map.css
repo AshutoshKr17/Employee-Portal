@@ -1,0 +1,52 @@
+.worldmap {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    flex-direction: column;
+    height: 92vh;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 15px;
+}
+
+.country {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    flex-direction: row;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 15px;
+    height: 45vh;
+    justify-content: center;
+}
+
+.network {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    flex-direction: row;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 15px;
+    height: 45vh;
+    justify-content: center;
+}
+
+#maps {
+    width: 40vw !important;
+}
+
+#element {
+    width: 40vw !important;
+}
+
+@media screen and (max-width:800px) {
+    #maps {
+        width: 100% !important;
+    }
+
+    #element {
+        width: 100% !important;
+    }
+}
